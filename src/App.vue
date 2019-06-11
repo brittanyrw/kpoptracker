@@ -1,30 +1,32 @@
 <template>
   <div id="app">
-    <Header/>
-    <Groups/>
+    <ComingSoon/>
   </div>
 </template>
 
 <script>
-import Header from './components/Header.vue'
-import Groups from './components/Groups.vue'
+import ComingSoon from './components/ComingSoon.vue'
 
 export default {
   name: 'app',
   components: {
-    Header,
-    Groups
+    ComingSoon
   }
 }
 </script>
 
 <style>
-#app {
+body {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  background-color: #2c3e50;
+  color: white;
+  max-width: 1000px;
+  margin: 60px auto;
+}
+#app {
+
 }
 </style>
